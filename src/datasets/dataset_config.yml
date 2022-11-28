@@ -1,0 +1,21 @@
+
+
+CIFAR10:   # name needs to be matched with dataset class name
+  root: E:\\python_project\\multi-dim-distillation\\data
+  trainset_sample_ratio: 1.0  # for few shot learning
+  seed: 1  # random seed for trainset sample
+  download: True
+  model_num: 3
+  
+
+CIFAR100:   # name needs to be matched with dataset class name
+  root: E:\\python_project\\multi-dim-distillation\\data
+  trainset_sample_ratio: 1.0  # for few shot learning
+  seed: 1  # random seed for trainset sample
+  download: True
+  model_num: 3
+
+
+TinyImageNet:
+  root: E:\\python_project\\multi-dim-distillation\\data\\tiny-imagenet-200\tiny-imagenet-200
+  model_num: 3
